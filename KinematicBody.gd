@@ -17,9 +17,7 @@ var max_p= 90
 
 var velocity : Vector3
 var y_velocity : float
-var sprinting = false
 var fall = Vector3()
-var ads_anim_played = false
 
 onready var pivot = $Spatial
 onready var camera = $Spatial/Camera
